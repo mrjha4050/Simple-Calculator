@@ -1,0 +1,55 @@
+html{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background: rgb(56, 49, 49);
+    font-size: 35px;
+    line-height: 30px;
+    border-radius:50px;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+
+.but{
+    background-color: orange;
+}
+
+.but:hover{
+    background-color: rgb(110, 31, 26);
+}
+
+
+input:hover{
+    background-color: #211b1b;
+}
+
+
+#result{
+    padding: 0;
+    margin: 5px;
+    width: 270px;
+    height: 70px;
+    background-color: transparent;
+    color: rgb(231, 202, 202);
+    text-align: right;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+}
+
+#calcu{
+    border: 5px solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #000000;
+}
